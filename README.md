@@ -5,11 +5,11 @@ A Discord bot that allows users with the Votemoji User role to vote on adding se
 ## Commands
 
 ### /votemoji start img_url emoji_name
-Requires role: Votemoji User
+Requires role: Votemoji User  
 Allows designated users to start a Votemoji election. The attached image URL must be a PNG, GIF, or JPG.
 
 ### /votemoji veto
-Requires role: Votemoji Admin
+Requires role: Votemoji Admin  
 Allows designated users to prematurely terminate an emoji election.
 
 ## Hosting
