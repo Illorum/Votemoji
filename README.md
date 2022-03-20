@@ -12,7 +12,7 @@ Allows designated users to start a Votemoji election. The attached image URL mus
 Requires role: Votemoji Admin
 Allows designated users to prematurely terminate an emoji election.
 
-# Hosting
+## Hosting
 
 1. Make sure node & npm are installed and up to date
 1. Create a discord application and obtain client ID and client secret
