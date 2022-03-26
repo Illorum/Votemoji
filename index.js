@@ -78,7 +78,7 @@ client.on('interactionCreate', async interaction => {
                     if(voteInfo.status === 'success')
                         interaction.guild.emojis.create(voteInfo.img, voteInfo.emojiName)
                             .then(emoji => console.log(`Created new emoji with name ${emoji.name}!`))
-                            .catch(emoji => voteInfo.msg.edit({content: `Error adding emoji. Num slots is ${numEmojiSlots}`}));
+                            .catch(emoji => voteInfo.msg.edit({content: `Error adding emoji. Num slots is ${numEmojiSlots(voteInfo.guild)}`}));
                     
                     voteInfo.msg.edit({ embeds: [makeEmbed(voteInfo)], components: []});
                     
